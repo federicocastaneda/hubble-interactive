@@ -242,3 +242,49 @@ margin: 0 1px 1px 0;
     width: 109px;
   }
 }
+
+/*Hubble Gallery*/
+.hubble-gallery {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.hubble-gallery a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  display: block;
+  float: left;
+  margin: 0 12px 12px 0;
+  width: 171px;
+  line-height: 0;
+}
+.hubble-gallery .caption.description {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+
+.hubble-gallery {
+    max-width: 500px;
+  }
+  .hubble-gallery a {
+    width: 120px;
+    margin: 0 4px 4px 0;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .hubble-gallery a {
+    width: 95px;
+    margin: 0 1px 1px 0;
+  }
+}
+
+
+@media screen and (max-width: 350px) {
+  .hubble-gallery a {
+    width: 81px;
+    margin: 0 1px 1px 0;
+  }
+}
